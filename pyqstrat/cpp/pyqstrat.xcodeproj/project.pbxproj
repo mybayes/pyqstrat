@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E18AFD228F39090004369C9 /* normaldistribution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E18AFCB28F3908F004369C9 /* normaldistribution.cpp */; };
+		3E18AFD328F39090004369C9 /* normaldistribution.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E18AFCC28F3908F004369C9 /* normaldistribution.h */; };
+		3E18AFD428F39090004369C9 /* rationalcubic.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E18AFCD28F3908F004369C9 /* rationalcubic.h */; };
+		3E18AFD528F39090004369C9 /* importexport.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E18AFCE28F39090004369C9 /* importexport.h */; };
+		3E18AFD628F39090004369C9 /* erf_cody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E18AFCF28F39090004369C9 /* erf_cody.cpp */; };
+		3E18AFD728F39090004369C9 /* lets_be_rational.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E18AFD028F39090004369C9 /* lets_be_rational.cpp */; };
+		3E18AFD828F39090004369C9 /* rationalcubic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E18AFD128F39090004369C9 /* rationalcubic.cpp */; };
+		3E18AFF328F390A2004369C9 /* pybind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E18AFD928F390A1004369C9 /* pybind.cpp */; };
+		3E18B00028F390A2004369C9 /* options.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E18AFE628F390A2004369C9 /* options.cpp */; };
+		3E18B00828F390A2004369C9 /* options.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3E18AFEE28F390A2004369C9 /* options.hpp */; };
+		3E18B00928F390A2004369C9 /* pybind_options.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E18AFEF28F390A2004369C9 /* pybind_options.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E47C9AF28C4201C0059B465 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E18AFCB28F3908F004369C9 /* normaldistribution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = normaldistribution.cpp; path = lets_be_rational/normaldistribution.cpp; sourceTree = "<group>"; };
+		3E18AFCC28F3908F004369C9 /* normaldistribution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = normaldistribution.h; path = lets_be_rational/normaldistribution.h; sourceTree = "<group>"; };
+		3E18AFCD28F3908F004369C9 /* rationalcubic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rationalcubic.h; path = lets_be_rational/rationalcubic.h; sourceTree = "<group>"; };
+		3E18AFCE28F39090004369C9 /* importexport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = importexport.h; path = lets_be_rational/importexport.h; sourceTree = "<group>"; };
+		3E18AFCF28F39090004369C9 /* erf_cody.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = erf_cody.cpp; path = lets_be_rational/erf_cody.cpp; sourceTree = "<group>"; };
+		3E18AFD028F39090004369C9 /* lets_be_rational.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lets_be_rational.cpp; path = lets_be_rational/lets_be_rational.cpp; sourceTree = "<group>"; };
+		3E18AFD128F39090004369C9 /* rationalcubic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rationalcubic.cpp; path = lets_be_rational/rationalcubic.cpp; sourceTree = "<group>"; };
+		3E18AFD928F390A1004369C9 /* pybind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pybind.cpp; path = options/pybind.cpp; sourceTree = "<group>"; };
+		3E18AFE628F390A2004369C9 /* options.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = options.cpp; path = options/options.cpp; sourceTree = "<group>"; };
+		3E18AFEE28F390A2004369C9 /* options.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = options.hpp; path = options/options.hpp; sourceTree = "<group>"; };
+		3E18AFEF28F390A2004369C9 /* pybind_options.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pybind_options.cpp; path = options/pybind_options.cpp; sourceTree = "<group>"; };
+		3E3C2D4928C4069400CBF225 /* libpyqstrat.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libpyqstrat.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E47C9B128C4201C0059B465 /* pyqstrat_main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pyqstrat_main; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E3C2D4728C4069400CBF225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E47C9AE28C4201C0059B465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E3C2D4028C4069400CBF225 = {
+			isa = PBXGroup;
+			children = (
+				3E18AFE628F390A2004369C9 /* options.cpp */,
+				3E18AFEE28F390A2004369C9 /* options.hpp */,
+				3E18AFEF28F390A2004369C9 /* pybind_options.cpp */,
+				3E18AFD928F390A1004369C9 /* pybind.cpp */,
+				3E18AFCF28F39090004369C9 /* erf_cody.cpp */,
+				3E18AFCE28F39090004369C9 /* importexport.h */,
+				3E18AFD028F39090004369C9 /* lets_be_rational.cpp */,
+				3E18AFCB28F3908F004369C9 /* normaldistribution.cpp */,
+				3E18AFCC28F3908F004369C9 /* normaldistribution.h */,
+				3E18AFD128F39090004369C9 /* rationalcubic.cpp */,
+				3E18AFCD28F3908F004369C9 /* rationalcubic.h */,
+				3E3C2D4A28C4069400CBF225 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E3C2D4A28C4069400CBF225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E3C2D4928C4069400CBF225 /* libpyqstrat.dylib */,
+				3E47C9B128C4201C0059B465 /* pyqstrat_main */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E3C2D4528C4069400CBF225 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E18AFD328F39090004369C9 /* normaldistribution.h in Headers */,
+				3E18AFD428F39090004369C9 /* rationalcubic.h in Headers */,
+				3E18AFD528F39090004369C9 /* importexport.h in Headers */,
+				3E18B00828F390A2004369C9 /* options.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E3C2D4828C4069400CBF225 /* pyqstrat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E3C2D5428C4069400CBF225 /* Build configuration list for PBXNativeTarget "pyqstrat" */;
+			buildPhases = (
+				3E3C2D4528C4069400CBF225 /* Headers */,
+				3E3C2D4628C4069400CBF225 /* Sources */,
+				3E3C2D4728C4069400CBF225 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pyqstrat;
+			productName = pyqstrat;
+			productReference = 3E3C2D4928C4069400CBF225 /* libpyqstrat.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		3E47C9B028C4201C0059B465 /* pyqstrat_main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E47C9B528C4201C0059B465 /* Build configuration list for PBXNativeTarget "pyqstrat_main" */;
+			buildPhases = (
+				3E47C9AD28C4201C0059B465 /* Sources */,
+				3E47C9AE28C4201C0059B465 /* Frameworks */,
+				3E47C9AF28C4201C0059B465 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pyqstrat_main;
+			productName = pyqstrat_main;
+			productReference = 3E47C9B128C4201C0059B465 /* pyqstrat_main */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E3C2D4128C4069400CBF225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3E3C2D4828C4069400CBF225 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3E47C9B028C4201C0059B465 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 3E3C2D4428C4069400CBF225 /* Build configuration list for PBXProject "pyqstrat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E3C2D4028C4069400CBF225;
+			productRefGroup = 3E3C2D4A28C4069400CBF225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E3C2D4828C4069400CBF225 /* pyqstrat */,
+				3E47C9B028C4201C0059B465 /* pyqstrat_main */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E3C2D4628C4069400CBF225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E18AFD628F39090004369C9 /* erf_cody.cpp in Sources */,
+				3E18AFD228F39090004369C9 /* normaldistribution.cpp in Sources */,
+				3E18B00928F390A2004369C9 /* pybind_options.cpp in Sources */,
+				3E18AFD828F39090004369C9 /* rationalcubic.cpp in Sources */,
+				3E18AFF328F390A2004369C9 /* pybind.cpp in Sources */,
+				3E18B00028F390A2004369C9 /* options.cpp in Sources */,
+				3E18AFD728F39090004369C9 /* lets_be_rational.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E47C9AD28C4201C0059B465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3E3C2D5228C4069400CBF225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONDA_PREFIX = /Users/sal/mambaforge/envs/py39;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "${CONDA_PREFIX}/lib";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3E3C2D5328C4069400CBF225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONDA_PREFIX = /Users/sal/mambaforge/envs/py39;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "${CONDA_PREFIX}/lib";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3E3C2D5528C4069400CBF225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CONDA_PREFIX = /Users/sal/mambaforge/envs/py39;
+				DEAD_CODE_STRIPPING = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = (
+					"${CONDA_PREFIX}/include",
+					"${CONDA_PREFIX}/include/python3.9",
+					"${CONDA_PREFIX}/lib/python3.9/site-packages/pybind11/include",
+				);
+				LIBRARY_SEARCH_PATHS = "${CONDA_PREFIX}/lib";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-lzip",
+					"-lhdf5_cpp",
+					"-lhdf5",
+					"-lboost_iostreams",
+					"-undefined",
+					dynamic_lookup,
+					"-Wl,-no_fixup_chains",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3E3C2D5628C4069400CBF225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CONDA_PREFIX = /Users/sal/mambaforge/envs/py39;
+				DEAD_CODE_STRIPPING = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = (
+					"${CONDA_PREFIX}/include",
+					"${CONDA_PREFIX}/include/python3.9",
+					"${CONDA_PREFIX}/lib/python3.9/site-packages/pybind11/include",
+				);
+				LIBRARY_SEARCH_PATHS = "${CONDA_PREFIX}/lib";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-lzip",
+					"-lhdf5_cpp",
+					"-lhdf5",
+					"-lboost_iostreams",
+					"-undefined",
+					dynamic_lookup,
+					"-Wl,-no_fixup_chains",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3E47C9B628C4201C0059B465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CONDA_PREFIX = /Users/sal/mambaforge/envs/py39;
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = (
+					"${CONDA_PREFIX}/include",
+					"${CONDA_PREFIX}/include/python3.9",
+					"${CONDA_PREFIX}/lib/python3.9/site-packages/pybind11/include",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "${CONDA_PREFIX}/lib";
+				LIBRARY_SEARCH_PATHS = "${CONDA_PREFIX}/lib";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-lzip",
+					"-lhdf5_cpp",
+					"-lhdf5",
+					"-lboost_iostreams",
+					"-undefined",
+					dynamic_lookup,
+					"-lpython3.9",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E47C9B728C4201C0059B465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CONDA_PREFIX = /Users/sal/mambaforge/envs/py39;
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = (
+					"${CONDA_PREFIX}/include",
+					"${CONDA_PREFIX}/include/python3.9",
+					"${CONDA_PREFIX}/lib/python3.9/site-packages/pybind11/include",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "${CONDA_PREFIX}/lib";
+				LIBRARY_SEARCH_PATHS = "${CONDA_PREFIX}/lib";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-lzip",
+					"-lhdf5_cpp",
+					"-lhdf5",
+					"-lboost_iostreams",
+					"-undefined",
+					dynamic_lookup,
+					"-lpython3.9",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E3C2D4428C4069400CBF225 /* Build configuration list for PBXProject "pyqstrat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3C2D5228C4069400CBF225 /* Debug */,
+				3E3C2D5328C4069400CBF225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E3C2D5428C4069400CBF225 /* Build configuration list for PBXNativeTarget "pyqstrat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3C2D5528C4069400CBF225 /* Debug */,
+				3E3C2D5628C4069400CBF225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E47C9B528C4201C0059B465 /* Build configuration list for PBXNativeTarget "pyqstrat_main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E47C9B628C4201C0059B465 /* Debug */,
+				3E47C9B728C4201C0059B465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E3C2D4128C4069400CBF225 /* Project object */;
+}
